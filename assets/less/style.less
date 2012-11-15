@@ -1,0 +1,264 @@
+/* ### GENERAL ### */
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	padding-top: 80px;
+}
+
+:focus {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0F0F0F;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.page {
+	background: url(../img/bg.png);
+}
+
+.page > div {
+	margin-bottom: 40px;
+}
+
+/* ### NAVBAR ### */
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-inner {
+	padding: 20px 0 20px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+.navbar .container {
+	width: 940px;
+}
+
+.logo {
+	float: left;
+}
+
+.user-action {
+	border-left: 1px solid #DDD;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+.navbar .main {
+	margin-right: 20px;
+}
+
+.search-query {
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+/* ### Page: index ### */
+
+.home {
+
+	.carousel {
+		margin-bottom: 0px;
+	}
+
+	.carousel-inner {
+
+		h1, h2, h3, h4, h5 {
+			color: #FFF;
+		}
+
+		.slide1{
+			background: url('../img/lib.jpeg');
+		}
+
+		.slide2{
+
+		}
+
+		.slide3{
+
+		}
+
+		.btn {
+			color: #FFF;
+			text-transform: uppercase;
+			padding: 20px;
+			font-family: verdana;
+			text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+			font-weight: bold;
+		}
+	}
+
+	.carousel .item {
+		height: 350px;
+	}
+
+	.be-a-member {
+		padding: 15px 0;
+		text-align: center;
+		background-color: whiteSmoke;
+		border-top: 1px solid white;
+		border-bottom: 1px solid #DDD;
+
+		a{
+			color: #666;
+		}
+	}
+
+	.highlighted-company {
+		height: 350px;
+		padding: 20px 660px 0 0;
+		background: url('../img/mac.png') bottom right no-repeat;
+		color: #FFF; 
+	}
+
+	.introduction {
+		text-align: center;
+		padding-top: 40px;
+
+		h1, h2, h3 {
+			font-weight: 300;
+			line-height: 1;
+			letter-spacing: -1px;
+		}
+
+		p {
+			color: #666;
+		}
+	}
+}
+
+/* ### Companies ### */
+
+.companies {
+
+	.filter {
+		background-color: white;
+		border: 1px solid #DDD;
+		border-top: 1px solid #EEE;
+	}
+
+	.parameters {
+		border-bottom: 1px solid #EEE;
+		padding: 20px;
+		box-shadow: 0 0px 4px whiteSmoke;
+
+		.search-query {
+			margin-top: 0;
+		}
+	}
+
+	.parameters > div {
+		float: left;
+		margin-right: 40px;
+	}
+
+	.companybox {
+		background-color: white;
+		border-radius: 5px;
+		margin-top: 40px;
+		border: 1px solid #DDD;
+		border-top: 1px solid #EEE;
+
+		.top {
+			border-bottom: 1px solid #EEE;
+			padding: 10px;
+		}
+
+		.bottom {
+			padding: 14px;
+
+			p {
+				margin-top: 10px;
+			}
+
+			.read-more {
+				float: right;
+			}
+
+		}
+
+	}
+
+}
+
+/* ### Single company ### */
+
+.company {
+
+	.box {
+		background-color: white;
+		border-radius: 5px;
+		border: 1px solid #DDD;
+		border-top: 1px solid #EEE;
+	}
+
+	.introduction {
+		padding: 60px;
+	}
+
+	.infobox {
+		padding: 60px;
+		border-bottom: 1px solid #EEE;
+
+		.icon {
+			padding: 40px;
+			width: 50px;
+			height: 50px;
+			border-radius: 5px;
+			border: 1px solid #EEE;
+			box-shadow: 0 1px 1px #DDD inset;
+			margin-right: 20px;
+		}
+
+		.contact {
+			padding: 0 65px 0 55px
+		}
+
+		.contact address {
+			margin-top: 10px;
+			word-wrap: break-word;
+			overflow: hidden;
+		}
+
+	}
+}
+
+/* ### Press ### */
+
+/* ### Footer ### */
+
+footer {
+	padding: 20px 0;
+	margin-top: 70px;
+	border-top: 1px solid #E5E5E5;
+	background-color: whiteSmoke;
+
+	dl {
+		float: left;
+		margin-right: 40px;
+		font-size: 0.8em;
+	}
+
+	a, p {
+		color: #666;
+	}
+
+	.copy {
+		img, p {margin-bottom: 20px;font-size: 0.9em;}
+	}
+
+}
